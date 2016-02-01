@@ -27,8 +27,8 @@ def map_word_to_wordId(source_file, target_file):
     helper(target_file, TargetWLexicon, RTargetWLexicon, id)
 
 
-SOURCE_PATH = 'target.txt'
-TARGET_PATH = 'source.txt'
+SOURCE_PATH = 'data/target.txt'
+TARGET_PATH = 'data/source.txt'
 map_word_to_wordId(SOURCE_PATH, TARGET_PATH)
 # print SourceWLexicon
 # print TargetWLexicon
